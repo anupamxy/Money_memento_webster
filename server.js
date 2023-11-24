@@ -34,7 +34,7 @@ const server=app.listen(PORT, () => {
 const io=require('socket.io')(server,{
     pingTimeout:600000,
     cors:{
-        origin:"http://localhost:3000",
+        origin:"https://mellow-valkyrie-fed129.netlify.app",
     }
 
 });
